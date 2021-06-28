@@ -4,7 +4,7 @@ from starkware.cairo.common.alloc import alloc
 from starkware.cairo.common.serialize import serialize_word
 
 func array_sum(arr : felt*, size) -> (sum):
-    if size == 0:
+    if size == 0
         return (sum=0)
     end
 
